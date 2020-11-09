@@ -40,7 +40,7 @@ export default class extends React.Component {
         coords: {latitude, longitude}
       } = await Location.getCurrentPositionAsync();
       this.getWeather(latitude, longitude);  
-      this.setState({ isLoading : false});
+      //this.setState({ isLoading : false});
         
       console.log(coords.latitude, coords.longitude); //위도, 경도 값 로그로 남기기
     } catch (error) {
