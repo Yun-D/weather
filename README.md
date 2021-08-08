@@ -1,4 +1,4 @@
-# weather_201102
+# weather
 ### 201102 ~ 201109
 
 Nomad Coder 강의 공부.
